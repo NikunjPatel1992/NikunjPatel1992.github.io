@@ -1,65 +1,14 @@
-/* img{
-    height: 100%;
-    width: 100%;
-} */
-#click{
-    color: #fff;
-    border: #BD5D38;
-    font-size: 20px;
-    font: bold;
-}
-.btn-outline-warning{
-    border: #BD5D38 solid 2px;
-}
 
-.myinfo{
-    font: bold;
-    font-size: 20px;
-}
-#info{
-    margin-top: 10px;
-    text-decoration: none;
-    color: #8A99AA;
-}
-.card{
-    margin-bottom: 10px;
-    animation: card 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
- @-webkit-keyframes card {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      -webkit-transform-origin: 50% 0%;
-              transform-origin: 50% 0%;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 50% 0%;
-              transform-origin: 50% 0%;
-      opacity: 1;
-    }
+.container .h-100 {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
   }
-  @keyframes card {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      -webkit-transform-origin: 50% 0%;
-              transform-origin: 50% 0%;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 50% 0%;
-              transform-origin: 50% 0%;
-      opacity: 1;
-    }
+  #about{
+      position: relative;
   }
-
-  /* ---------------------------------------------------
+  
+   /* ---------------------------------------------------
     Portfolio Section CSS
 ----------------------------------------------------- */
 .portfolio{
@@ -124,7 +73,10 @@
 	line-height:3rem;
 }
 
-  
+.show {
+    display: block;
+  }
+
 /* ==============contact page===== */
 
 #contact-form ul {
@@ -144,6 +96,10 @@
     display: block;
     width: 100%;
   }
+  input,
+  textarea{
+      border-radius: 5px;
+  }
   
   input[type=text],
   input[type=email],
@@ -155,7 +111,7 @@
   }
   
   textarea {
-    height: 200px;
+    height: 100px;
   }
   
   input[type=submit] {
@@ -182,4 +138,3 @@
       width: 100%;
   }
   /*======== contact us========  */
-
